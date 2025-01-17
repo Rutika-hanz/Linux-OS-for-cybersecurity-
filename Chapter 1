@@ -1,1 +1,37 @@
 Chapter 1 Linux summary
+Linux is the software componet called kernel,it is the software that controls the operating system.
+Linux comprises of 
+1)user utilities 
+2)server software 
+3)Shells
+4)file systems 
+5)the kernel 
+6)kernel modules 
+7)GUI software 
+8)libraries 
+10)device files
+
+ Linux distribution also called as distro a specific implementation of Linux operating system it can be
+commercial 
+home Or amateur security enhanced life ditro's commercial distribution tend to be more secure than distributions designed for home use this is because commercial distributions are often used for system critical task in corporations and or the government or the organization that support these distribution often makes security a key component of the operating system shells shell is a software program that allows a user to issue command to the system if you have worked in Microsoft Windows
+
+ We have used the shell environment provided for the operating system dos like dos shell in Linux provide a command line interface cli to the user 
+Linux has several different shells available although multiple different cells are available for Linux by father most popular cell is the bash shell the bash shell was developed from an older shell name the Bruno board ne shell because it is widely popular it will be primary focus of the discussion
+
+GUI software 
+When you install Linux operating system you can decide if you only want a login and interact with the system via the cli or if you want to install a GUI .GUI software allows us to use a mouse and keyboard to interact with the system much like you may be used within Microsoft Windows for personal use on laptop or desktop having GUI is normally a good choice the use ease of using GUI environment often outweigh the disadvantages that this software creates GUI software tends to be big hog or system resources, taking up a higher percentage of CPU cycles and ram .
+Consider that every time we add more software to the system we add a potential security risk each software potent component must be properly secured this is essentially important for any software that provides the means for a user to access a software GUI based software is a good example for off additional potential security risk user can login via a GUI login screen presenting yet another means for a hacker to exploit the system for this reason System Administrator tend to not install geos software on critical servers .
+GUI can be installed via 2 means Linux natively on a system or installed the detroit's as a virtual machine.
+if Linux is installed natively is the hardware supported in this case we may want to say the add from a new hardware particularly on newer laptops as they may have components that are not yet supported by Linux if Linux is installed on VM does the system have enough resources to support both a host and an OS and a virtual machine OS epically this comes down to a question how much ram the system has in most cases a system with at least 8 GB of ram should be able to support at least one VM 
+what is distros how hard can it be to pick up a distribution how many retros can be there aspire the conditions required we can get the detroit's or the Linux GUI on the system there are 
+Red Hat and enterprise Linux fedro fedora and CentOS -these distribution fans are called Red Hat based distros because they all share a common set of base code from red hats release of Linux there are many others that share this code but there are generally the most popular note that both fedora and CentOS are completely free while Red Hat Linux enterprise ease subscription based distros for Red Hat based example in this book we will use fedora .
+
+Linux Mint Ubuntu or Debian these distributions are called Debian based distributors because they all share a common set of base code from Debian release of Linux there are many other that share this code but these are generally the most popular for Debian based example in this book we will be using Ubantu 
+
+Kali Linux -this is a security based distribution that will be used in several chapters of this book consider this distribution to be a tool that enables you to determine what security holes are present in their environment 
+native or virtual machine if we have an old computer available you can certainly use it to install in Linux natively however given the fact that we probably want to test several distribution virtual machine installs are likely a better choice 
+
+In order to create VM we need product that provides a hypervisor. hypervisor is a software that presents virtual hardware to VM.
+This includes a virtual hard drive a virtual network interface a virtual CP and other components typically found on physical system there are many different Oracle hypervisor software programs including VMware Microsoft hyper v send Citrix Xenserver and Oracle VirtualBox
+We could also make use of hosted hypervisor which are cloud based applications with this solution we don't even have to install anything on our local system Amazon Web service is a good example of a cloud based service that allows for hosted hypervisor 
+much debate in the security industry revolves around whether virtual machines are more secure than bare metal installations there is no simple answer to this question because many aspects needs to be considered for example although virtual machines may provide a level of abstraction making it harder for a hacker to be where of their existence they also result in another software component that needs to be properly secured security is in the primary reason why an organization uses virtual machines however if we choose to use virtual machines in our environment the security impact should be carefully considered and included in the security policies for example for the purposes of learning Linux we will be using Oracle VirtualBox it is freely available and works well on multiple platforms including Microsoft Windows 
